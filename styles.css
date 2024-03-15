@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #fefeff;
+}
+
+.bg-navbar{
+  background-color: #283345;
+
+}
+
+.navbar-brand{
+  color:#dbdce1
+}
+.nav-link{
+  color:#90979f
+}
+.nav-link:hover{
+  color: #f7f7f7;
+}
+
+.navbar-nav .nav-link.active{
+  color:white
+}
+
+
+.bg-image{
+  background-image: url('./assets/asset-background.jpg');
+  background-size: 30% ;
+  background-repeat: no-repeat;
+  background-position: right top ;
+  background-color: #293344;
+
+}
+
+.icon-nav{
+  margin-right: 0.5rem;
+}
+
+.p-color{
+  color:#90979f;
+  font-weight: semi-bold;
+}
+
+
+.card-icon{
+  width: 60px;
+  height: 60px;
+}
+
+.btn-custom{
+  color: #90979f;
+  background-color:transparent;
+  border: 1px solid #90979f;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+}
+.btn-custom-primary{
+  color: #fff;
+  background-color: #3871ff;
+  padding: 0.5rem 1.75rem;
+  border-radius: 0.2rem;
+  border: none;
+
+}
+
+.btn-custom-white{
+  color: #fff;
+
+}
+
+.bg-color1{
+  background-color: #3871ff;
+}
+
+.bg-color3{
+  background-color: #283345;
+
+}
+
+.card2{
+  padding: 1rem 1rem 0 1rem ;
+}
+
+.card-position{
+ transform: translateY(35%);
+
+}
+
+.footer-padding{
+  padding-top: 7rem;
+}
+
+.brand-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+
+}
+
+.brand-margin{
+  margin-right: 4rem;
+}
